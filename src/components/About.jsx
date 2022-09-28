@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div name='about' className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
+    <div name='about' className="w-full h-screen pt-3 bg-gradient-to-b from-gray-800 to-black text-white">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-green-800 pt-4">
@@ -10,20 +10,15 @@ function About() {
                 </p>
             </div>
             <p className="text-xl mt-20">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Id provident pariatur quisquam, molestiae voluptates blanditiis 
-                eum porro repudiandae deleniti numquam praesentium officiis 
-                cumque vero magnam, explicabo iste? Blanditiis libero fugiat doloremque,
-                 in maxime dicta debitis omnis, doloribus quod atque voluptates 
-                 quasi at magni esse. Vero illo tempora quae at eaque.
+                Martin is a fresh graduate from the University of Malawi (formely called Chancellor college). I obtained My 
+                Bachelor of Science degree majoring Computer Science in 2021. During my $ years of learning i have been equipped with
+                vast amount  of skills like Computer Programming, Computer Networking, Project Management and Database Systems Management.
             </p>
             <br />
             <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Explicabo perspiciatis nulla impedit voluptatibus quia quo sit quidem vitae 
-                dolore repudiandae animi voluptas quibusdam officia, praesentium fugit, magni rerum beatae. 
-                Adipisci voluptas asperiores minima libero illum voluptatum
-                 voluptatibus velit maxime iure aut eaque facere, porro perferendis quibusdam placeat sunt quae autem.
+                My passion for Information Technology started way back when i was in secondary education. I strongly 
+                believe that IT has a huge impact on our lives. I see IT being linked to our every aspect of life in near future.. so yeah i want 
+                to be part of technological world guys....
             </p>
         </div>
     </div>

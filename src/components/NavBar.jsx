@@ -62,7 +62,7 @@ const NavBar = () => {
            {links.map( ({id, link}) => (
                    <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'
                    >
-                  <Link to={link} smooth duration={500}>
+                  <Link to={link} onClick={() => setNav(!nav)} smooth duration={500}>
                       {link}
                   </Link>  
                     

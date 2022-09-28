@@ -27,7 +27,7 @@ function Portfolio() {
 
 
   return (
-    <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
+    <div name="portfolio" className="bg-gradient-to-b pt-6 from-black to-gray-800 w-full text-white md:h-screen">
         <div className="w-full max-w-screen-lg p-4 mx-auto flex flex-col justify-center">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-green-800">MY PORTFOLIO.</p>
