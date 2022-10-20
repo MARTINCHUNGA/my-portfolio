@@ -11,7 +11,7 @@ function About() {
             </div>
             <p className="text-xl mt-20">
                 Martin is a fresh graduate from the University of Malawi (formely called Chancellor college). I obtained My 
-                Bachelor of Science degree majoring Computer Science in 2021. During my $ years of learning i have been equipped with
+                Bachelor of Science degree majoring Computer Science in 2021. During my 4 years of learning i have been equipped with
                 vast amount  of skills like Computer Programming, Computer Networking, Project Management and Database Systems Management.
             </p>
             <br />
