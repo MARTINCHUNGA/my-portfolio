@@ -8,19 +8,38 @@ function Portfolio() {
     {
         id : 1,
         src : BookShelf,
-        name : "BooK Shelf"
+        name : "BooK Shelf",
+        child : (
+            <>
+             View Project 
+            </>
+        ),  
+       // href : ""
     },
     {
         id : 2,
         src : VideoGame,
-        name : "Video Games"
+        name : "Video Games",
+        child : (
+            <>
+              View Project 
+            </>
+        ),
+        href : "https://factmartin-video-games.netlify.app/",
+        code : "https://github.com/MARTINCHUNGA/Video-games"
         
         
     },
     {
         id : 3,
         src : Music,
-        name : "Music Player"
+        name : "Music Player",
+        child : (
+            <>
+             View Project 
+            </>
+        ),
+        //href : ""
     },
   ]
 
@@ -37,13 +56,28 @@ function Portfolio() {
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
 
         {
-            projects.map(({id, src,name}) => (
+            projects.map(({id, src,name,child, href,code}) => (
                 <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                       <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
                          <div className="flex items-center justify-center ">
-                            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-green-800">Code</button>
+                         <a href={href} className="flex justify-between items-center w-full text-green-800" 
+                            //download={download}
+                            target="_blank"
+                            rel="noreferrer">
+                
+                            {child}
+
+                            </a>
                             <p className="text-green-800 w-full justify-center">{name}</p>
-                            <button className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 text-green-800">View Project</button>
+                            <a href={code} className="flex justify-between items-center w-full text-green-800" 
+                            //download={download}
+                            target="_blank"
+                            rel="noreferrer">
+                
+                             <p>Code</p>
+
+                            </a>
+                            {/* <button className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 text-green-800">Code</button> */}
                     </div>
                 </div>
             ))
