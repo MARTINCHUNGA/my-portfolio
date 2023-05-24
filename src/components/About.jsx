@@ -11,14 +11,15 @@ function About() {
             </div>
             <p className="text-xl mt-20">
                 Martin is a fresh graduate from the University of Malawi (formely called Chancellor college). I obtained My 
-                Bachelor of Science degree majoring Computer Science in 2021. During my 4 years of learning i have been equipped with
+                Bachelor of Science degree majoring Computer Science in 2022. During my 4 years of learning i have been equipped with
                 vast amount  of skills like Computer Programming, Computer Networking, Project Management and Database Systems Management.
             </p>
             <br />
             <p className="text-xl">
-                My passion for Information Technology started way back when i was in secondary education. I strongly 
-                believe that IT has a huge impact on our lives. I see IT being linked to our every aspect of life in near future.. so yeah i want 
-                to be part of technological world guys....
+                My passion for Information Technology started way back when i was in Secondary School. I strongly 
+                believe that IT has a huge impact on our lives. I see IT being linked to our everyday aspect of life.. Am more passionate
+                about Computer Networks and Database Management as you can see on my Resume below the social links.
+                
             </p>
         </div>
     </div>
