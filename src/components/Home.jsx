@@ -13,7 +13,8 @@ const Home = () => {
          justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl animate-pulse sm:text-7xl font-bold text-green-500'>
-                    Hey, I'am a Network Engineer
+                    Hey, I'am a Network 
+                    Engineer
                 </h2>
                 <p className='py-4 max-w-md text-white'>
                     I'am a graduate from the University of Malawi. Am passionate about Computer
