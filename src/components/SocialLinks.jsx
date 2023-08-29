@@ -41,7 +41,7 @@ function SocialLinks() {
                  Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: '/Martin Chunga.pdf',
+            href: '/Martin Chunga Resume.pdf',
             style:'rounded-br-md',
             download: true     
         },
